@@ -2,6 +2,7 @@ from django.db import models
 
 class Category(models.Model):
     name = models.CharField(max_length=50)
+    color = models.CharField(max_length=15)
 
 class Author(models.Model):
     name = models.CharField(max_length=100)
